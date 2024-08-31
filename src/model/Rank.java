@@ -1,33 +1,26 @@
 package model;
 
 public enum Rank {
-    TWO(2, "Two"),
-    THREE(3, "Three"),
-    FOUR(4, "Four"),
-    FIVE(5, "Five"),
-    SIX(6, "Six"),
-    SEVEN(7, "Seven"),
-    EIGHT(8, "Eight"),
-    NINE(9, "Nine"),
-    TEN(10, "Ten"),
-    JACK(11, "Jack"),
-    QUEEN(12, "Queen"),
-    ACE(13, "Ace");
+    TWO (2),
+    THREE (3),
+    FOUR (4),
+    FIVE (5),
+    SIX (6),
+    SEVEN (7),
+    EIGHT (8),
+    NINE (9),
+    JACK (10),
+    QUEEN (11),
+    KING (12),
+    ACE (13);
 
+    int rank;
 
-    private final int rank;
-    private final String name;
-
-    Rank(int value, String name) {
-        this.rank = value;
-        this.name = name;
+    private Rank(int value) {
+        rank = value;
     }
 
-    public int getRank() {
+    public int value() {
         return rank;
-    }
-
-    public String getName() {
-        return name;
     }
 }

@@ -1,8 +1,8 @@
 package model;
 
 public class PlayingCard {
-    private final Rank rank;
-    private final Suit suit;
+    private Rank rank;
+    private Suit suit;
     private boolean faceUp;
 
     public PlayingCard(Rank rank, Suit suit) {
@@ -10,11 +10,9 @@ public class PlayingCard {
         this.rank = rank;
         this.suit = suit;
     }
-
     public Rank getRank() {
         return rank;
     }
-
     public Suit getSuit() {
         return suit;
     }
@@ -28,8 +26,4 @@ public class PlayingCard {
         return faceUp;
     }
 
-    @Override
-    public String toString() {
-        return rank.getName() + " of " + suit.getName();
-    }
 }

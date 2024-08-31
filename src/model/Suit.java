@@ -1,26 +1,15 @@
 package model;
 
 public enum Suit {
-    DIAMONDS(1,"Diamonds"),
-    HEARTS(2,"Hearts"),
-    SPADES(3,"Spades"),
-    CLUBS(4,"Clubs");
+    DIAMONDS(1), HEARTS(2), SPADES(3), CLUBS(4);
 
-    private final int value;
-    private final String name;
+    int suit;
 
-    Suit(int value, String name) {
-        this.value = value;
-        this.name = name;
-
+    private Suit(int value) {
+        suit = value;
     }
 
-    public int getValue() {
-        return value;
+    public int value() {
+        return suit;
     }
-
-    public String getName() {
-        return name;
-    }
-
 }
