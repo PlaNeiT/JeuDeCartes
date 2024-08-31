@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d0ff4b-e3a2-4b5f-9c5a-529682a3ba9b" name="Changes" comment="feature: PlayingCard -&gt; Value, color, flag to flip the card, and a tostring">
-      <change afterPath="$PROJECT_DIR$/src/model/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b7d0ff4b-e3a2-4b5f-9c5a-529682a3ba9b" name="Changes" comment="feature: Deck -&gt; able to shuffle the deck, remove a card and print the best card">
+      <change afterPath="$PROJECT_DIR$/src/model/Hand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725118942559</updated>
-      <workItem from="1725118943620" duration="986000" />
+      <workItem from="1725118943620" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -110,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725119826710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: Deck -&gt; able to shuffle the deck, remove a card and print the best card">
+      <option name="closed" value="true" />
+      <created>1725120154289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725120154289</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +138,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="feature: Rank -&gt; enum from 2 to Ace&#10;Suit -&gt; enum colors with Clubs strongest" />
     <MESSAGE value="feature: PlayingCard -&gt; Value, color, flag to flip the card, and a tostring" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: PlayingCard -&gt; Value, color, flag to flip the card, and a tostring" />
+    <MESSAGE value="feature: Deck -&gt; able to shuffle the deck, remove a card and print the best card" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: Deck -&gt; able to shuffle the deck, remove a card and print the best card" />
   </component>
 </project>
